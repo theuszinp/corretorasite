@@ -597,32 +597,6 @@ cite { display: block; margin-top: 16px; color: var(--gold-2); font-style: norma
   border: 0;
   filter: saturate(.96) contrast(1.02);
 }
-.map-label {
-  position: absolute;
-  left: 16px;
-  top: 16px;
-  z-index: 2;
-  width: min(300px, calc(100% - 32px));
-  padding: 16px 18px;
-  border: 1px solid rgba(0,24,61,.12);
-  border-radius: 10px;
-  background: rgba(255,255,255,.96);
-  box-shadow: 0 18px 42px rgba(0,24,61,.18);
-}
-.map-label small,
-.map-label em {
-  display: block;
-  color: #4b5563;
-  font-style: normal;
-  line-height: 1.35;
-}
-.map-label strong {
-  display: block;
-  margin: 5px 0;
-  color: var(--black);
-  font-size: 1.05rem;
-  line-height: 1.2;
-}
 .about-mini-card {
   padding: 20px 22px;
   border: 1px solid rgba(255,255,255,.16);
